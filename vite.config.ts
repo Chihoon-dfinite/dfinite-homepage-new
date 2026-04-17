@@ -5,6 +5,12 @@ import { resolve } from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  server: {
+    host: true,
+    port: 42424,
+    strictPort: true,
+    allowedHosts: ['61.73.18.41', 'localhost'],
+  },
   resolve: {
     alias: {
       '@app': resolve(__dirname, 'src/app'),

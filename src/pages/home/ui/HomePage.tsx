@@ -13,6 +13,7 @@ export function HomePage() {
       </header>
 
       <section className="landing__hero">
+        <p>테스트입니다.</p>
         <span className="landing__eyebrow">AI Infrastructure</span>
         <h1 className="landing__title">
           데이터를 의사결정으로,
